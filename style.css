@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding:50px;
+    width: 80%;
+    height: 100vh;
+    margin:auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.subcont{
+    width: 50%;
+    margin: auto;
+    background-color: lightgreen;
+    padding: 40px 20px;
+    transition: border-radius 1s, transform 0.5s;
+}
+
+.subcont:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    transform: scale(1.5);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
